@@ -1,6 +1,6 @@
 # Fractals
 
-![Alternate text](pics/fractals.PNG)
+![Alternate text](/pics/fractals.PNG)
 
 ## Introduction
 
@@ -96,7 +96,7 @@ iterations = 4 # TOP: 7
 angle = 60
 ```
 
-![Alternate text](pics\01_koch_snowflake.JPG)
+![Alternate text](/pics/01_koch_snowflake.JPG)
 
 ```python
 import turtle
