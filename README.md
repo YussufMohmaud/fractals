@@ -96,7 +96,7 @@ iterations = 4 # TOP: 7
 angle = 60
 ```
 
-![Alternate text](pics/01_koch_snowflake.JPG)
+![Alternate text](pics\01_koch_snowflake.JPG)
 
 ```python
 import turtle
@@ -257,7 +257,6 @@ def main(iterations, axiom, rules, angle, length=None, size=None, correction_ang
     wn.exitonclick()
 
 # Global parameters
-
 width = 450
 
 title = "Koch-Snowflake" 
