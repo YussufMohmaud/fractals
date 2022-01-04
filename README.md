@@ -1,6 +1,6 @@
 # Fractals
 
-![Alternate text](pics/fractals.PNG)
+![Alternate text](pics\fractals.PNG)
 
 ## Introduction
 
@@ -74,3 +74,15 @@ In order to make this work, each fractal should also provide a direction, which 
 The [axiom](https://en.wikipedia.org/wiki/Axiom) and the production rules will depend on the fractal only, but the fractal should be written in a way that can be represented by these only three symbols. This introduces a limitation, we will be able to produce only one-line fractals, so some such as the [Cantor Set](https://en.wikipedia.org/wiki/Cantor_set) won't be able to be produced this way, this is only a simplification, since we can introduce two other commands to move forwards without writing and analogously for the backwards movement, but to keep things simple we will keep that simplification.
 
 Now let's move to some drawing!
+
+## Drawing
+
+The following drawings were compiled from several places publicly available on internet. I decided to port them to Python with the help of the Turtle module, center them, adding colors and provide a way to export them in vectorial SVG format for the pen plotter.
+
+Because the browser execute Python via [Skulpt](https://skulpt.org/) and [Colorsys](https://docs.python.org/3/library/colorsys.html) isn't supported yet, the sketches will be black & white but images with colors and the corresponding code to generate them will be provided. Each sketch has a code associated which you can open and fork in [Repl.it](https://replit.com/)
+
+WARNING: The sketches you are about to see are quite large in size, it is recommended to see them only with a good connection. The Repl snippet may not work since it uses your resources so mobile users might not be able to see it properly.
+
+Note: Skulpt uses YOUR BROWSER to render and to make the sketch so if in any case you experience delays, lags or strange behaviour it may be a problem with the browser, replaying the sketch or reloading the page should fix most issues. It may not work properly on mobile.
+
+The sketches are ordered by their complexity, so the best ones are at the end.
