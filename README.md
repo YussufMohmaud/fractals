@@ -29,7 +29,9 @@ Certainly there are lots of plotting libraries in Python, being Matplotlib the m
 According to [Python docs](https://docs.python.org/3.6/library/turtle.html):
 
 ```txt
-"Turtle graphics is a popular way for introducing programming to kids. It was part of the original Logo programming language developed by Wally Feurzig and Seymour Papert in 1966."
+"Turtle graphics is a popular way for introducing programming to kids.
+It was part of the original Logo
+programming language developed by Wally Feurzig and Seymour Papert in 1966."
 ```
 
 The key here is that turtle recognizes basically 2 commands:
