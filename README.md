@@ -43,6 +43,6 @@ Note: The standard library provided other commands but here we are going to just
 
 Additionally we have the option to:
 
-* Up and Down
+* Up and Down (position)
 
 This characteristics seems too simple for plotting such complex graphics as fractals but we will use another tool that uses just this little set of instructions, I'm talking about [L-Systems](https://en.wikipedia.org/wiki/L-system).
