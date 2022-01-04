@@ -1,3 +1,3 @@
 # Fractals
 
-![](pics/fractals.PNG)
+![Alternate text](pics/fractals.PNG)
