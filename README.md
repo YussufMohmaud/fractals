@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Fractals are generative, they are built with very complex pattern and they allow you to zoom in forever! In this repo I will see how easily it is to generate several kinds of fractals using a technique called L-Systems and the Python Turtle module for the step by step pen plotting.
+Fractals are generative, they are built with very complex pattern and they allow you to zoom in forever! In this repo I will see how easily it is to generate several kinds of fractals using a technique called [L-Systems](https://en.wikipedia.org/wiki/L-system) and the Python Turtle module for the step by step pen plotting.
 
 ## Overview
 
@@ -23,3 +23,24 @@ Fractals are typically hard to draw, because there is a concept which is recursi
 A two examples for this are the [Quadratic Koch Island](https://en.wikipedia.org/wiki/Koch_snowflake), which with 3 iterations has a clear structure and in the other hand the [Dragon Curve](https://en.wikipedia.org/wiki/Dragon_curve) which has a clear structure with 8 iterations. How many iterations are needed depends highly on the specific fractal we are working with.
 
 Certainly there are lots of plotting libraries in Python, being Matplotlib the most popular but they are usually design to plot statistical data and well known plots. Matplotlib in particular has some low level constructs that allow us to build fractals but this time we will be focusing in a usually forget module in the standard library, the Turtle Module.
+
+## Turtle Module
+
+According to [Python docs](https://docs.python.org/3.6/library/turtle.html):
+
+```txt
+"Turtle graphics is a popular way for introducing programming to kids. It was part of the original Logo programming language developed by Wally Feurzig and Seymour Papert in 1966."
+```
+
+The key here is that turtle recognizes basically 2 commands:
+
+* Move Forwards and Backwards by side (distance)
+* Turn Left and Right by angle (direction)
+
+Note: The standard library provided other commands but here we are going to just those 2.
+
+Additionally we have the option to:
+
+* Up and Down
+
+This characteristics seems too simple for plotting such complex graphics as fractals but we will use another tool that uses just this little set of instructions, I'm talking about [L-Systems](https://en.wikipedia.org/wiki/L-system).
