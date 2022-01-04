@@ -46,3 +46,31 @@ Additionally we have the option to:
 * Up and Down (position)
 
 This characteristics seems too simple for plotting such complex graphics as fractals but we will use another tool that uses just this little set of instructions, I'm talking about [L-Systems](https://en.wikipedia.org/wiki/L-system).
+
+## L-Systems
+
+An L-System is a way of representing recursive structures (such as fractals) as a string of 8 bit characters, this is done by rewriting the string over and over. Again, the formal definition is the following:
+
+An L-system, is a string rewriting system that can be used to generate fractals with dimension between 1 and 2. - [Math World](https://mathworld.wolfram.com/LindenmayerSystem.html)
+
+Once we understand what an L-System is we can produce recursive structures, but before we are able to do that we need to understand what are the instructions we need. Every L-System has:
+
+* `An alphabet`: The set of symbols the L-System is going to use.
+* `An axiom`: The initial string for the generation.
+* `A set of production rules`: These rules tells how each symbol should be replaced in the following iteration.
+
+This is very similar to the definition of a [Formal Grammar](https://en.wikipedia.org/wiki/Formal_grammar), the key difference is that in each iteration, as opposed to grammars, as many rules as possible are applied instead of just one. So L-Systems are a subset of [Context-Free Grammar](https://en.wikipedia.org/wiki/Context-free_grammar).
+
+Since we are going to use Turtle to plot and L-Systems to represent what we want to generate we need to create a relationship between them.
+
+Since the only commands we have in Turtle are the mentioned above we will assign each a symbol which will represent the alphabet.
+
+* `F`: Move Forwards
+* `+`: Turn Right
+* `-`: Turn Left
+
+In order to make this work, each fractal should also provide a direction, which will be the angle the turtle will turn either right or left, for simplicity reasons only one angle should be provided and the L-System should be written taking that into consideration.
+
+The [axiom](https://en.wikipedia.org/wiki/Axiom) and the production rules will depend on the fractal only, but the fractal should be written in a way that can be represented by these only three symbols. This introduces a limitation, we will be able to produce only one-line fractals, so some such as the [Cantor Set](https://en.wikipedia.org/wiki/Cantor_set) won't be able to be produced this way, this is only a simplification, since we can introduce two other commands to move forwards without writing and analogously for the backwards movement, but to keep things simple we will keep that simplification.
+
+Now let's move to some drawing!
